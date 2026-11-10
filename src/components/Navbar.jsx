@@ -46,9 +46,14 @@ function Navbar() {
         </li>
 
         <li>
-          <a href="#resume" onClick={() => setMenuOpen(false)}>
-            Resume
-          </a>
+          <a
+  href="/resume.pdf"
+  target="_blank"
+  rel="noreferrer"
+>
+  Resume
+</a>
+           
         </li>
       </ul>
     </nav>
