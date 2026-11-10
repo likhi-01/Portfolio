@@ -1,0 +1,123 @@
+.home {
+  min-height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 8%;
+  gap: 50px;
+  background: #0f172a;
+}
+
+.home-content {
+  max-width: 650px;
+}
+
+.welcome-text {
+  color: #a78bfa;
+  letter-spacing: 2px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.home-content h1 {
+  font-size: 48px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.home-content h1 span {
+  color: #a78bfa;
+}
+
+.home-content h2 {
+  color: #cbd5e1;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.home-description {
+  color: #94a3b8;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.home-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  padding: 13px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.primary-btn {
+  background: #8b5cf6;
+  color: white;
+}
+
+.primary-btn:hover {
+  background: #7c3aed;
+}
+
+.secondary-btn {
+  border: 2px solid #a78bfa;
+  color: white;
+}
+
+.secondary-btn:hover {
+  background: #8b5cf6;
+}
+
+.home-contact {
+  color: #cbd5e1;
+  line-height: 2;
+  font-size: 14px;
+}
+
+.home-image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #8b5cf6;
+}
+.github-calendar {
+  display: block;
+  width: 100%;
+  max-width: 850px;
+  margin: 20px auto;
+}
+
+/* Responsive design */
+
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 50px 6%;
+  }
+
+  .home-content h1 {
+    font-size: 34px;
+  }
+
+  .home-content h2 {
+    font-size: 21px;
+  }
+
+  .home-buttons {
+    justify-content: center;
+  }
+
+  .home-image img {
+    width: 200px;
+    height: 200px;
+  }
+}

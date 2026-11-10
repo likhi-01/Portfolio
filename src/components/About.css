@@ -1,0 +1,102 @@
+.about {
+  padding: 80px 8%;
+  background: #111827;
+}
+
+.about-heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about-heading p {
+  color: #a78bfa;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.about-heading h2 {
+  color: white;
+  font-size: 38px;
+  margin-top: 10px;
+}
+
+.about-heading h2 span {
+  color: #a78bfa;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.about-description h3,
+.education h3 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.about-description p {
+  color: #cbd5e1;
+  line-height: 1.8;
+  margin-bottom: 18px;
+}
+
+.achievement {
+  margin-top: 35px;
+}
+
+.achievement ul {
+  padding-left: 20px;
+  color: #cbd5e1;
+  line-height: 2;
+}
+
+.timeline {
+  border-left: 2px solid #8b5cf6;
+  padding-left: 25px;
+  margin-left: 8px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 35px;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -33px;
+  top: 5px;
+  width: 14px;
+  height: 14px;
+  background: #a78bfa;
+  border-radius: 50%;
+}
+
+.timeline-item h4 {
+  color: #a78bfa;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.timeline-item p {
+  color: #cbd5e1;
+  line-height: 1.7;
+}
+
+.timeline-item span:not(.timeline-dot) {
+  display: inline-block;
+  color: #94a3b8;
+  margin: 8px 0;
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+
+  .about-heading h2 {
+    font-size: 30px;
+  }
+}
