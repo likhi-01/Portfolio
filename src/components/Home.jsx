@@ -24,7 +24,7 @@ function Home() {
             Download Resume
           </a>
 
-          <a href="#resume" className="btn secondary-btn">
+          <a href="/resume.pdf" className="btn secondary-btn">
             View Resume
           </a>
         </div>
